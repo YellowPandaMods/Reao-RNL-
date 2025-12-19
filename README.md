@@ -1,0 +1,18 @@
+# Reao RNL
+
+
+> ## Common Questions:
+> #### Why i created this kernel? 
+> ##### For fun, education and big dreams!
+> #### How to compile it and run it?
+> ##### Here look at the docs [Go to Docs](../../tree/docs/README.md)
+
+
+> **⚠️ Status: UNDER DEVELOPMENT**
+> This project is actively being worked on. Expect changes and incomplete features.
+>
+> ![Status](https://img.shields.io/badge/status-under--development-orange)
+
+_Why RNL? Cause **Reao's Not Linux**_
+
+
