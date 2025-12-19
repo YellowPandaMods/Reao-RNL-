@@ -12,7 +12,6 @@ x86_64-linux-gnu-gcc -ffreestanding -fpic -fshort-wchar -fno-stack-protector \
 # Compile kernel.c into an object file
 x86_64-linux-gnu-gcc -ffreestanding -fpic -fno-stack-protector \
   -c kernel.c -o kernel.o
-
 # Link boot.o and kernel.o
 ld -nostdlib -znocombreloc \
    -T /usr/lib/elf_x86_64_efi.lds \

@@ -24,9 +24,13 @@ EFI_STATUS EFIAPI efi_main(EFI_HANDLE image, EFI_SYSTEM_TABLE *st) {
 
     Print(L"[Step 4] Press any key to exit...\n");
 
+
     st->ConIn->Reset(st->ConIn, FALSE);
 
-    while (st->ConIn->ReadKeyStroke(st->ConIn, &key) != EFI_SUCCESS) {}
+    EFI_STATUS key_status = EFI_NOT_READY;
+    while (key_status != EFI_SUCCESS) {
+        key_status = st->ConIn->ReadKeyStroke(st->ConIn, &key);
+    }
 
     Print(L"[Step 5] Key pressed. Exiting boot services.\n");
 

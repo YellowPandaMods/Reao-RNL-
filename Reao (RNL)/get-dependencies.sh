@@ -14,7 +14,7 @@ install_deps_debian() {
     echo "[*] Installing dependencies for Debian/Ubuntu..."
     sudo apt update
     sudo apt install -y build-essential gcc-multilib git \
-        gnu-efi gnu-efi-dev iasl xorriso
+        gnu-efi iasl xorriso
 }
 
 install_deps_fedora() {
