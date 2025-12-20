@@ -1,5 +1,8 @@
-# Reao RNL
+# Reao RNL 
 
+<p align="center">
+<img src="Assets/logo.png" width="300" height="300"/>
+</p>
 
 > ## Common Questions:
 > #### Why i created this kernel? 
