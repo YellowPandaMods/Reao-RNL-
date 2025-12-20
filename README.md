@@ -13,12 +13,21 @@
 > This project is actively being worked on. Expect changes and incomplete features.
 >
 > ![Status](https://img.shields.io/badge/status-under--development-orange)
-> 
-> *How it runs?* UEFI
-> - [X] Does it run?
-> - [ ] Does GDT and IDT is setup yet?
-> - [ ] Is the bootloader ready?
-> - [X] __Does it have big dreams?__
+>
+
+<sub>Remember this ⬆️<sub>
+
+>How it runs? *UEFI*
+
+## 🗺️ Roadmap
+- [ ] Feature: Full Bootloader and Boot Protocol
+- [ ] Feature: Working Kernel
+- [ ] Feature: IDT and GDT setup
+- [ ] Feature: Interrupts
+- [ ] Feature: Framebuffer
+- [ ] Feature: Full Standard C library
+
+<sub> (were planning on porting newlib first to make it easy and then port musl) <sub>
 
 
 _Why RNL? Cause **Reao's Not Linux**_
