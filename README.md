@@ -1,5 +1,7 @@
 # Reao RNL 
 
+## We're in the process of re-writing the kernel it might be unstable or not working at times
+
 <p align="center">
 <img src="Assets/logo.png" width="300" height="300"/>
 </p>
